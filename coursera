@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Hoc HTML</title>
+    <style>
+    #giadinhtoi {
+        background-color:red;
+        font-size: 300%;
+        color:white;
+        border:5px dotted black;
+        paddle: 40px;
+        text-align: center;
+    }
+    .giadinh {
+        background-color: rgb(144, 177, 238);
+        font-family: 'brush script MT';
+        font-size: 200%;
+        color: rgb(2, 2, 71);
+        border: 3px solid yellow;
+        margin: 20px;
+        padding:20px;
+    }
+    </style>
+</head>
+<body>
+      <table border="10" cellpading="1" cellspacing="1">
+        <thead>
+            <tr>
+                <th> STT</th>
+                <th> Ho Va Ten</th>
+                <th> Nam sinh</th>
+                <th> Noi Sinh</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td> <a href="#cha">Tran Duy Trung</a></td>
+                <td>1982</td>
+                <td>Hue</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td> <a href="#me">Bui Thuy Xuan Kieu</a></td>
+                <td>1985</td>
+                <td>Dong Nai</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><a href="#con1">Tran Tue Lam</a></td>
+                <td>2010</td>
+                <td>Philadelphia</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><a href="#con2">Tran Duy Jonathan</a></td>
+                <td>2018</td>
+                <td>Lancaster</td>
+            </tr>
+        </tbody>
+    </table>
+<br>
+<p>Nhap Mat Khau</p>    
+<form action="http://www.w3school.com/" target="_blank" method="get">
+        <input type="password">
+    </form>
+<H2 id="giadinhtoi">
+GIA DINH TOI</h2>
+<div class="giadinh">
+    <h2 id="cha">Cha
+    <img src="daddy.jpg" width=100px heigh=150px alt="daddy sketch">
+    </h2>
+    <p>Tran Duy Trung</p>
+</div>
+<div class="giadinh">
+    <h2 id="me">Me</h2>
+    <p>Tran Thuy Xuan Kieu</p>
+</div>
+<div class="giadinh">
+    <h2>Con</h2>
+    <p id="con1">Tran Tue Lam</p>
+    <p id="con2">Tran Duy Jonathan</p>
+</div>
+</body>
+</html>
